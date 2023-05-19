@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c3c3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_404"
+        android:layout_height="@dimen/_639"
+        android:layout_marginBottom="@dimen/_270"
+        android:src="@drawable/background_intro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewWL"
+        android:layout_width="@dimen/_400"
+        android:layout_height="@dimen/_600"
+        android:layout_marginBottom="@dimen/_180"
+        android:background="@drawable/white_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.607" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/_337"
+        android:layout_height="@dimen/_133"
+        android:layout_marginTop="@dimen/_30"
+        android:gravity="center"
+        android:text="@string/welcome_back_to_your_app"
+        android:textColor="@color/white"
+        android:textSize="@dimen/t35"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:layout_width="@dimen/_340"
+        android:layout_height="@dimen/_85"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:text="@string/download_all_the_designs_resource_available_on_the_uilover_channel_for_free"
+        android:textColor="@color/white"
+        android:textSize="@dimen/t20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="@dimen/_394"
+        android:layout_height="@dimen/_270"
+        android:layout_marginTop="@dimen/_20"
+        android:src="@drawable/women"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581"
+        tools:ignore="ContentDescription" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="@dimen/_350"
+        android:layout_height="@dimen/_50"
+        android:layout_marginBottom="@dimen/_100"
+        android:background="@drawable/btn1"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@color/btntxt"
+        android:textSize="@dimen/t24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="1.0"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup"
+        android:layout_width="@dimen/_350"
+        android:layout_height="@dimen/_50"
+        android:layout_marginBottom="@dimen/_30"
+        android:background="@drawable/btn1"
+        android:text="@string/signup"
+        android:textAllCaps="false"
+        android:textColor="@color/btntxt"
+        android:textSize="@dimen/t24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

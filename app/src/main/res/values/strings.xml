@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">reglog</string>
+    <string name="welcome_back_to_your_app">Welcome back \n to your app</string>
+    <string name="download_all_the_designs_resource_available_on_the_uilover_channel_for_free">Download all the designs Resource available on the uilover channel for free</string>
+    <string name="login">Log in</string>
+    <string name="signup">Signup</string>
+    <string name="create_account">Create account</string>
+    <string name="your_email">Your email</string>
+    <string name="your_password">Your Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_password_again">Enter your password again</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="don_t_have_an_account_register">don\'t have an account? Register!</string>
+</resources>

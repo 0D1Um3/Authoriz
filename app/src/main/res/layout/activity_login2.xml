@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c3c3"
+    tools:context=".MainActivity"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/_440"
+        android:layout_height="@dimen/_274"
+        android:src="@drawable/top_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:layout_width="@dimen/_270"
+        android:layout_height="@dimen/_144"
+        android:layout_marginStart="@dimen/_25"
+        android:layout_marginTop="@dimen/_80"
+        android:text="@string/login_to_your_account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/t38"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/_148"
+        android:layout_height="@dimen/_177"
+        android:layout_marginTop="@dimen/_102"
+        android:src="@drawable/women2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <EditText
+        android:id="@+id/appCompatButton"
+        android:layout_width="@dimen/_346"
+        android:layout_height="@dimen/_48"
+        android:layout_marginTop="@dimen/_54"
+        android:background="@drawable/btn2"
+        android:gravity=""
+        android:hint="@string/enter_your_email"
+        android:textColorHint="@color/C4C0C2"
+        android:paddingStart="@dimen/_10"
+        android:textAllCaps="false"
+        android:textColor="@color/_717171"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="@dimen/_270"
+        android:layout_height="@dimen/_30"
+        android:layout_marginStart="@dimen/_28"
+        android:layout_marginTop="@dimen/_10"
+        android:text="@string/your_email"
+        android:textColor="@color/_5325"
+        android:textSize="@dimen/t20"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        />
+
+    <TextView
+        android:layout_width="@dimen/_270"
+        android:layout_height="@dimen/_30"
+        android:layout_marginStart="@dimen/_28"
+        android:layout_marginTop="@dimen/_50"
+        android:layout_marginBottom="@dimen/_4"
+        android:text="@string/your_password"
+        android:textColor="@color/_5325"
+        android:textSize="@dimen/t20"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintStart_toStartOf="parent"
+       />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="@dimen/_346"
+        android:layout_height="@dimen/_48"
+        android:layout_marginTop="@dimen/_45"
+        android:paddingStart="@dimen/_10"
+        android:background="@drawable/btn2"
+        android:gravity=""
+        android:hint="@string/enter_your_password"
+        android:textColorHint="@color/C4C0C2"
+        android:textAllCaps="false"
+        android:textColor="@color/_717171"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/_149"
+        android:layout_height="@dimen/_25"
+        android:layout_marginTop="@dimen/_8"
+        android:text="@string/forget_password"
+        android:textColor="@color/_5325"
+        android:textSize="@dimen/t14"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="@dimen/_42"
+        android:layout_height="@dimen/_42"
+        android:layout_marginStart="@dimen/_110"
+        android:layout_marginBottom="@dimen/_25"
+        android:src="@drawable/facebook"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        app:layout_constraintVertical_bias="1.0" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="@dimen/_42"
+                android:layout_height="@dimen/_42"
+                android:layout_marginTop="@dimen/_100"
+                android:layout_marginEnd="@dimen/_66"
+                android:src="@drawable/google"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.607"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/editText4"
+                app:layout_constraintVertical_bias="0.671" />
+
+            <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="@dimen/_42"
+        android:layout_height="@dimen/_42"
+        android:layout_marginEnd="@dimen/_110"
+        android:layout_marginBottom="@dimen/_25"
+        android:src="@drawable/twitter"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        app:layout_constraintVertical_bias="1.0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton2"
+                android:layout_width="@dimen/_350"
+                android:layout_height="@dimen/_50"
+                android:layout_marginTop="@dimen/_25"
+                android:background="@drawable/btn3"
+                android:foregroundGravity="center_horizontal"
+                android:drawableEnd="@drawable/circle"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_25"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/reg"
+                android:layout_width="@dimen/_350"
+                android:layout_height="@dimen/_50"
+                android:layout_marginTop="@dimen/_35"
+                android:layout_marginBottom="@dimen/_40"
+                android:background="@drawable/btn1"
+                android:text="@string/don_t_have_an_account_register"
+                android:textAllCaps="false"
+                android:textColor="#375735"
+                android:textSize="@dimen/t15"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/appCompatButton2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
