@@ -178,14 +178,16 @@
                 android:layout_marginTop="@dimen/_35"
                 android:layout_marginBottom="@dimen/_40"
                 android:background="@drawable/btn1"
-                android:text="@string/dont_have_an_account"
+                android:text="@string/dont_have_account"
                 android:textAllCaps="false"
                 android:textColor="#375735"
                 android:textSize="@dimen/t15"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/appCompatButton2" />
+                app:layout_constraintTop_toBottomOf="@+id/appCompatButton2"
+                app:layout_constraintVertical_bias="1.0" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
