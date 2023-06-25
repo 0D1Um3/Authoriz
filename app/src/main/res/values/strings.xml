@@ -9,7 +9,7 @@
     <string name="your_password">Your Password</string>
     <string name="repeat_password">Repeat Password</string>
     <string name="register">Register</string>
-    <string name="already_have_an_account">Already have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
     <string name="email">Enter your email</string>
     <string name="password">Enter your password</string>
     <string name="enter_password_again">Enter your password again</string>
